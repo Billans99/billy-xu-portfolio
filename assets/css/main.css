@@ -334,7 +334,6 @@ input, select, textarea {
 
 	.portrait-photo {
 		
-	
 	}
 
 	.bold {
@@ -345,6 +344,12 @@ input, select, textarea {
 		margin-top: 40px;
 		margin-bottom: 50px;
 		font-weight: 400;
+		height: 50px;
+	}
+
+	.experience-heading > p{
+		height: 100px;
+		padding-bottom: 150px;
 	}
 
 	.project1-snapshot {
@@ -421,6 +426,14 @@ input, select, textarea {
 		margin-top: 50px;
 	}
 
+	.frontend-img-container{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 250px;
+		height: 220px;
+	}
+
 	.js-logo {
 		height: 80px;
 		width: auto;
@@ -440,6 +453,44 @@ input, select, textarea {
 	.css-logo {
 		height: 80px;
 		width: auto;
+	}
+
+	.react-bootstrap-logo{
+		height: 75px;
+		width: auto;
+	}
+
+	.materialui-logo{
+		height: 80px;
+		width: 80px;
+	
+	}
+
+	.backend-img-container{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 250px;
+		height: 220px;
+	}
+
+	.mongodb-logo{
+		height: 90px;
+		width: auto;
+	}
+
+	.node-logo{
+		height: 80px;
+		width: auto;
+	}
+
+	.express-logo{
+		height: 80px;
+		width: auto;
+	}
+
+	.version-control-img-container{
+		padding-bottom: 130px;
 	}
 
 	.git-logo {
