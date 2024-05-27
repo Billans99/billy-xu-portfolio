@@ -40,9 +40,9 @@
 										</header>
 										<p>
 											I'm a passionate full-stack web developer motivated to create impact with responsive user-interfaces. My self taught coding 
-											journey began on fCC (freeCodeCamp) in January 2023, and I have greatly enjoyed coding since the beginning. The most recent
+											journey began on fCC (freeCodeCamp), and I have greatly enjoyed coding since the beginning. The most recent
 											project I have built is a full-stack React Node application, fetching data from my own RESTful API and 
-											MongoDB database. The app is named Vital Help and its aim is to raise awareness for Men's Mental Health.
+											MongoDB database. The app is called Vital Help and its aim is to raise awareness for men's mental health.
 										</p>
 									</div>
 
@@ -70,7 +70,7 @@
 										
 
 										<h2 class="experience-heading">Frontend</h2>
-										<p>Developing highly interactive and responsive frontend user interfaces using HTML, CSS, & JS</p>
+										<p>Developing interactive and responsive frontend user interfaces using HTML, CSS & JS</p>
 										<p>Intermediate React experience building reusable and responsive components for applications</p>
 										<p>Experience interacting with RESTful APIs to Get, Post, Patch, and Delete data</p>
 										<p>Adept using React Bootstrap and Material UI as component libaries for React</p>
@@ -91,7 +91,7 @@
 
 										<h2 class="experience-heading">Backend</h2>
 										<p>Experience using Node.JS to build a server and a RESTful API using Express.JS framework</p>
-										<p>Proficient in fetching data from an external API and displaying that data on the frontend</p>
+										<p>Proficient in fetching data and querying from an external API and displaying that data on the frontend</p>
 										<p>Experience with MongoDB for noSQL database and Mongoose for schema</p>
 										<p>Familiarity with HTTP requests such as Get, Post, Patch, Delete</p>
 									</li>
@@ -121,55 +121,52 @@
 								<header class="major">
 									<h2>Projects</h2>
 								</header>
-								
 
-								<img class="project1-snapshot" src="images/pokedex-paradise-portfolio-snapshot.png" alt="Portfolio project 1 screenshot">
+								<!-- Project 1 -->
+								<img class="project1-snapshot" src="images/vital-help-portfolio-snapshot.png" alt="Portfolio project 2 screenshot">
+								<h2 class="projects-heading">Vital Help</h2>
 								
-								<h2 class="projects-heading">Pokidex Paradise</h2>
-								
-								<div class="pokidex-body-container">
-									<p class="pokidex-body">
-										Pokedex Paradise is a single page React web application that fetches data from 
-										PokeAPI and displays pokemon information in ascending order of ID. Simply hover the cursor above a pokemon's name to display its information. 
-										The idea to build this app was inspired by an Ania Kubow YouTube video/short detailing PokeAPI as one of the most used APIs ever. 
-										This was quite interesting and inspired me to build this app.</p>
+									<div class="animeapp-body-container">
+										<p class="animeapp-body">
+											Vital Help is a multi-page, full-stack node app built on React. The frontend uses Material UI and React Bootstrap, while the backend utilises 
+											Node and Express for the backend. MongoDB and Mongoose is used for the database. The application fetches mental health statistical data from 
+											my own RESTful API and MongoDB database. Additionally, Patch, Post, and Delete requests can be used to update the data. The app is designed 
+											to raise awareness for men's mental health by revealing statistical data and providing external support links for mental health.
+										</p>
 
-									<p class="pokidex-info-list">The sort of information users can find include: 
-										<ul>
-											<li>Appearance</li>
-											<li>Name</li>
-											<li>Type (and corresponding colour of type)</li>
-											<li>Abilities</li>
-											<li>Base stats</li>
-											
-										</ul>
-									</p>
-									
-								</div>
-								
+										<p>
+											For routing, I used React Router to navigate between pages which includes:
+											<ul>
+												<li>Home</li>
+												<li>Statistics</li>
+												<li>About</li>
+												<li>General Support</li>
+												<li>Crisis Support</li>
+											</ul>
+										</p>
+									</div>
+
 								<div class="project-links-container">
 
 									<ul class="actions special">
-										<li><a href="https://github.com/Billans99/pokedex-api-project" class="github-link button">GitHub Repo</a></li>
+										<li><a href="https://github.com/Billans99/mens-mental-health-app" class="github-link button" target="_blank">Frontend Repo</a></li>
+										<li><a href="https://github.com/Billans99/node-server-for-project-3" class="github-link button" target="_blank">Backend Repo</a></li>
 									</ul>
-									
 								</div>
-									
-							
 
+								<!-- Project 2 -->
 								<img class="project2-snapshot" src="images/anime-app-portfolio-snapshot.png" alt="Portfolio project 2 screenshot">
 								<h2 class="projects-heading">Anime App</h2>
 								
 									<div class="animeapp-body-container">
 										<p class="animeapp-body">
-											This React web app fetches data from the free API, Jikan. I wanted 
-											to create a movies app without doing the same thing as everyone else, so I decided to create a similar app based on anime.
+											This anime app is built on React that fetches data from the free API, Jikan. 
 											Users are able to find various animes as well as indepth information by clicking the "view" button. Users can also search for 
 											particular anime using the search function.
 										</p>
 
 										<p>
-											I utilised the React Bootstrap framework components to create the buttons, modal, in addition to some others.
+											I utilised the React Bootstrap library components to create the buttons, modal, in addition to some others.
 										</p>
 
 										<p class="animeapp-info-list">The sort of information users can find include: 
@@ -189,29 +186,62 @@
 												<li>Streaming platforms</li>
 											</ul>				
 
-										<p>One of my biggest takeaways of the project is that some free APIs can be unreliable and unfortunately, some of the data will not load due to the API being free. The console will ocassionally show error (429) "Too Many Requests", however, it does all work. If you would like to view something that is not being loaded to the page, you can try refreshing the page.</p>
+										<p>
+											One of my biggest takeaways of the project is that some free APIs can be unreliable and unfortunately, some of the data will not load due 
+											to the API being free. The console will occasionally show error (429) "Too Many Requests", however, it does all work. If you would like 
+											to view something that is not being loaded to the page, you can try refreshing the page.
+										</p>
 										
 										<div class="example-screenshots-container">
-											<p><a href="https://imgur.com/a/RFpLzft" target="_blank">Here are some screenshots in case some of the content does not load properly:</a></p>
+											<p>
+												<a href="https://imgur.com/a/RFpLzft" target="_blank">
+													Here are some screenshots in case some of the content does not load properly:
+												</a>
+											</p>
 										</div>
 										
 
-										<p class="bold">While Search, Home, and Top functions are SFW (Safe for Work), please be aware that Recommendations and Random may show NSFW (Not Safe for Work) content. These two did not have a query parameter to allow SFW only.</p>
+										<p class="bold">The recommendations and random anime features of the application have been disabled as the API did not have safe for work parameters.</p>
 									</div>
 
 								<div class="project-links-container">
 
 									<ul class="actions special">
-										<li><a href="https://github.com/Billans99/anime-api-app" class="github-link button">GitHub Repo</a></li>
+										<li><a href="https://github.com/Billans99/anime-api-app" class="github-link button" target="_blank">GitHub Repo</a></li>
 									</ul>
 									
 									
 								</div>
+								
+								<!-- Project 3 -->
+								<img class="project3-snapshot" src="images/pokedex-paradise-portfolio-snapshot.png" alt="Portfolio project 1 screenshot">
+								<h2 class="projects-heading">Pokidex Paradise</h2>
+								<div class="pokidex-body-container">
+									<p class="pokidex-body">
+										Pokedex Paradise is a single page React web application that fetches data from PokeAPI and displays pokemon
+										information in ascending order of ID. Simply hover the cursor above a pokemon's name to display its information. 
+									</p>
+
+									<p class="pokidex-info-list">The sort of information users can find include: 
+										<ul>
+											<li>Appearance</li>
+											<li>Name</li>
+											<li>Type (and corresponding colour of type)</li>
+											<li>Abilities</li>
+											<li>Base stats</li>
+											
+										</ul>
+									</p>
 									
+								</div>
 								
-								
+								<div class="project-links-container">
+
+									<ul class="actions special">
+										<li><a href="https://github.com/Billans99/pokedex-api-project" class="github-link button" target="_blank">GitHub Repo</a></li>
+									</ul>
 									
-								
+								</div>
 							</section>
 
 						<!-- Degrees and Education -->

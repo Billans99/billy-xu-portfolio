@@ -353,7 +353,7 @@ input, select, textarea {
 	}
 
 	.project1-snapshot {
-		height: 550px;
+		height: 500px;
 		width: auto;
 		border-radius: 15px;
 		border: 1px solid grey;
@@ -362,6 +362,15 @@ input, select, textarea {
 	}
 
 	.project2-snapshot {
+		height: 550px;
+		width: auto;
+		border-radius: 15px;
+		border: 1px solid grey;
+		margin-bottom: 15px;
+		/* box-shadow: 1px 1px 1px 1px 2px black; */
+	}
+
+	.project3-snapshot{
 		height: 550px;
 		width: auto;
 		border-radius: 15px;
