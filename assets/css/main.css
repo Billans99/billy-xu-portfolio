@@ -459,6 +459,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		width: 250px;
 		height: 220px;
+		margin: 0 auto;
 	}
 
 	.js-logo {
@@ -499,6 +500,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		width: 250px;
 		height: 220px;
+		margin: 0 auto;
 	}
 
 	.mongodb-logo{
@@ -518,6 +520,7 @@ input, select, textarea {
 
 	.version-control-img-container{
 		padding-bottom: 130px;
+		margin: 0 auto;
 	}
 
 	.git-logo {
@@ -3013,6 +3016,7 @@ input, select, textarea {
 		list-style: none;
 	}
 
+
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
@@ -3058,6 +3062,8 @@ input, select, textarea {
 					}
 
 		}
+
+		
 
 /* Statistics */
 
