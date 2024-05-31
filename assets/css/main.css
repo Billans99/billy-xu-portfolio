@@ -353,8 +353,8 @@ input, select, textarea {
 	}
 
 	.project1-snapshot {
-		height: 500px;
-		width: auto;
+		height: auto;
+		width: 100%;
 		border-radius: 15px;
 		border: 1px solid grey;
 		margin-bottom: 15px;
@@ -362,8 +362,8 @@ input, select, textarea {
 	}
 
 	.project2-snapshot {
-		height: 540px;
-		width: auto;
+		height: auto;
+		width: 100%;
 		border-radius: 15px;
 		border: 1px solid grey;
 		margin-bottom: 15px;
@@ -371,8 +371,8 @@ input, select, textarea {
 	}
 
 	.project3-snapshot{
-		height: 570px;
-		width: auto;
+		height: auto;
+		width: 100%;
 		border-radius: 15px;
 		border: 1px solid grey;
 		margin-bottom: 15px;
@@ -380,8 +380,8 @@ input, select, textarea {
 	}
 
 	.project4-snapshot{
-		height: 470px;
-		width: auto;
+		height: auto;
+		width: 100%;
 		border-radius: 15px;
 		border: 1px solid grey;
 		margin-bottom: 15px;
@@ -389,8 +389,8 @@ input, select, textarea {
 	}
 
 	.project5-snapshot{
-		height: 540px;
-		width: auto;
+		height: auto;
+		width: 100%;
 		border-radius: 15px;
 		border: 1px solid grey;
 		margin-bottom: 15px;
